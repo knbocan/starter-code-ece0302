@@ -1,10 +1,12 @@
 // Methods from Frank M. Carrano and Tim Henry.
 // This file is included in "Bag.hpp"
 
-/** @file Bag.cpp */
+/** @file Bag.tpp */
 
 #include <algorithm>
 #include <cstddef>
+
+#include "Bag.hpp"
 
 template<class ItemType>
 Bag<ItemType>::Bag() : headPtr(nullptr), itemCount(0)
